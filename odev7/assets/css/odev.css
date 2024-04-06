@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  margin-inline: auto ;
+}
+
+.container {
+  width: 365px;
+  background-color: #ECF2F8;
+
+}
+
+.vazo {
+  width: 327px;
+  height: 490px;
+  top: 74px;
+  left: 24px;
+  gap: 0px;
+  border-radius: 0px 0px 10px 10px;
+  opacity: 0px;
+
+}
+
+.vazo img {
+  
+  padding-top: 24px;
+  align-items: center;
+}
+
+.vazo h5 {
+  padding-top: 16px;
+  width: 223px  ;
+  font-size: 16px;
+  color: #48556A;
+  text-align: center;
+  
+}
+
+.vazo p {
+  font-size: 13px;
+  padding-top: 13px;
+  text-align: left;
+  width: 280px;
+  color:  #6E8098;
+  
+}
+
+.socialmedia {
+
+  width: 330px;
+}
+
