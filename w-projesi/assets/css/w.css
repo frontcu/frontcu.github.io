@@ -1,0 +1,238 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Jost", sans-serif;
+  font-weight: 400;
+  
+
+}
+
+.container {
+  width: 1105px;
+  margin: 0 auto;
+
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 65px;
+}
+
+.nav {
+  display: flex;
+  gap: 10px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #333136;
+}
+
+.nav :hover {
+  color: orange;
+
+}
+
+ul {
+  list-style: none;
+}
+
+.midpic {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  padding-bottom: 30px;
+}
+
+.lego img {
+  margin-bottom: 30px;
+}
+
+.yazi {
+  width: 730px;
+  display: flex;
+  margin-bottom: 40px;
+}
+
+.alt {
+  padding-bottom: 70px;
+}
+
+.alt p {
+  width: 350px;
+  margin-right: 130px;
+}
+
+.alt a {
+  background-color: #F15D51;
+  padding: 20px;
+  margin-left: 330px;
+  text-decoration: none;
+  color: white;
+}
+
+.alt a:hover {
+  background-color: #00001A;
+}
+
+.new {
+  background-color: #00001A;
+  width: 359px;
+  height: 566px;
+}
+
+
+.new h2 {
+  color: orange;
+  padding-top: 32px;
+  margin-left: 24px;
+  padding-bottom: 44px;
+
+}
+
+
+
+.new a {
+  text-decoration: none;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 24px;
+  text-align: center;
+  color: #FFFDFA;
+  margin-left: 24px;
+  padding-bottom: 8px;
+}
+
+.new h3 :hover {
+  color: orange;
+}
+
+.new p {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: left;
+  color: #C5C6CE;
+  margin-left: 24px;
+  padding-bottom: 10px;
+}
+
+.new hr {
+  margin-bottom: 11px;
+}
+
+.new h2:hover {
+  color: orange;
+}
+
+.foooter {
+  display: flex;
+  width: 350px;
+  gap: 30px;
+  text-align: center;
+}
+
+
+.pctext h2 {
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 32px;
+  text-align: left;
+  color: #C5C6CE;
+  padding-bottom: 15px;
+}
+
+.pctext a:hover {
+  color: orange;
+}
+.pctext h3 {
+  width: 250px;
+  color: #00001A;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 24px;
+  text-align: left;
+  padding-bottom: 9px;
+}
+
+
+
+.pctext p {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: left;
+  color: #5E607A;
+}
+
+.keyboardtext a:hover {
+  color: orange;
+}
+
+.keyboardtext h2 {
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 32px;
+  text-align: left;
+  color: #C5C6CE;
+  padding-bottom: 15px;
+}
+
+.keyboardtext h3 {
+  width: 250px;
+  color: #00001A;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 24px;
+  text-align: left;
+  padding-bottom: 9px;
+}
+
+.keyboardtext p {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: left;
+  color: #5E607A;
+}
+
+.joysticktext a:hover {
+  color: orange;
+}
+
+.joysticktext h2 {
+  padding-bottom: 15px;
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 32px;
+  text-align: left;
+  color: #C5C6CE;
+}
+
+.joysticktext h3 {
+  width: 250px;
+  color: #00001A;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 24px;
+  text-align: left;
+  padding-bottom: 9px;
+}
+
+.joysticktext p {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: left;
+  color: #5E607A;
+}
